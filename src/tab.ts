@@ -284,8 +284,8 @@ function loadSettings(): void {
     if (localStorage.getItem('settings') == null) {
       let defaultSettings = {
         'defaultCommand': 'g',
-        'bgColor': '#282828',
-        'textColor': '#ebdbb2'
+        'bgColor': '#1D1F21',
+        'textColor': '#f9f9fa'
       };
       localStorage.setItem('settings', JSON.stringify(defaultSettings));
     }
